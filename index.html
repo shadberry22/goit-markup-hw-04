@@ -23,7 +23,7 @@
 
   <body>
     <header class="header">
-      <div class="container header-container">
+      <div class="header-container container">
         <a class="logo link" href="./index.html"
           >Web<span class="secondary-black">Studio</span></a
         >
@@ -40,32 +40,32 @@
         </nav>
         <ul class="contacts-list list">
           <li>
-            <a class="contacts-link link" href="emailto:info@devstudio.com"
+            <a class="contacts-link link email" href="emailto:info@devstudio.com"
               >info@devstudio.com</a
             >
-          </li>
+          </liass=>
           <li>
-            <a class="contacts-link link" href="tel:+380961111111"
+            <a class="contacts-link link tel" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
-          </li>
+          </liclass=>
         </ul>
       </div>
     </header>
 
     <main>
       <!-- Hero Section -->
-      <section class="hero">
+      <section class="hero hero-overlay">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button class="hero-button" type="button">Замовити послугу</button>
       </section>
-
+      
       <!-- List of Merits -->
       <section class="merits section">
         <div class="container">
           <h2 class="visually-hidden">Перелік чеснот</h2>
           <ul class="merits-list list">
-            <li class="merits-item">
+            <li class="merits-item icon-attention">
               <h3 class="merits-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="merits-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
@@ -73,7 +73,7 @@
               </p>
             </li>
 
-            <li class="merits-item">
+            <li class="merits-item icon-accuracy">
               <h3 class="merits-title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="merits-text">
                 Завдання організації, особливо рамки і місце навчання кадрів
@@ -81,14 +81,14 @@
               </p>
             </li>
 
-            <li class="merits-item">
+            <li class="merits-item icon-plan">
               <h3 class="merits-title">ПЛАНУВАННЯ</h3>
               <p class="merits-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
 
-            <li class="merits-item">
+            <li class="merits-item icon-technology">
               <h3 class="merits-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="merits-text">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -193,38 +193,67 @@
           </ul>
         </div>
       </section>
+
+      <!-- Our Clients -->
+      <section class="clients section">
+        <div class="container">
+          <h2 class="clients-title">Постійні клієнти</h2>
+          <ul class="clients-list list">
+            <li class="client-item"></li>
+            <li class="client-item"></li>
+            <li class="client-item"></li>
+            <li class="client-item"></li>
+            <li class="client-item"></li>
+            <li class="client-item"></li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-      <div class="container">
-        <a class="logo link" href="./index.html"
-          >Web<span class="main-white">Studio</span></a
-        >
-        <address class="footer-address">
-          <ul class="footer-list list">
-            <li>
-              <a
-                class="footer-link link"
-                href="https://goo.gl/maps/Sf7SDFhJT4M1kA9y5"
-                target="_blank"
-                rel="noopener noreferrer"
-                >м. Київ, пр-т Лесі Українки, 26
-              </a>
-            </li>
-            <li>
-              <a
-                class="footer-link link contacts"
-                href="emailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="footer-link link contacts" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
-            </li>
+      <div class="footer-container container">
+        
+        <div class="logo-address">
+          <a class="logo link" href="./index.html"
+            >Web<span class="main-white">Studio</span></a
+          >
+          <address class="footer-address">
+            <ul class="footer-list list">
+              <li>
+                <a
+                  class="footer-link link"
+                  href="https://goo.gl/maps/Sf7SDFhJT4M1kA9y5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >м. Київ, пр-т Лесі Українки, 26
+                </a>
+              </li>
+              <li>
+                <a
+                  class="footer-link link contacts"
+                  href="emailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="footer-link link contacts" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="social-links">
+          <span class="social-title">приєднуйтесь</span>
+          <ul class="social-list list">
+            <li class="soc-link link"></li>
+            <li class="soc-link link"></li>
+            <li class="soc-link link"></li>
+            <li class="soc-link link"></li>
           </ul>
-        </address>
+        </div>
+
       </div>
     </footer>
   </body>
