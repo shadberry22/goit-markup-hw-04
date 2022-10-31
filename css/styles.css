@@ -466,7 +466,7 @@ img {
 
 .footer-container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .logo-address {
