@@ -38,17 +38,23 @@
             <li><a class="header-link link" href="">Контакти</a></li>
           </ul>
         </nav>
+
         <ul class="contacts-list list">
-          <li>                    
-            <a class="contacts-link link email" href="emailto:info@devstudio.com"
+          <li class="contact-item">
+            <a class="contacts-link link" href="emailto:info@devstudio.com">
+              <svg class="contact-icon">
+                <use href="./images/icons.svg#icon_envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="contacts-link link tel" href="tel:+380961111111"
-              >+38 096 111 11 11</a
+            <a class="contacts-link link tel" href="tel:+380961111111">
+              <svg class="contact-icon">
+                <use href="./images/icons.svg#icon_smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
             >
-          </liclass=>
+          </li>
         </ul>
       </div>
     </header>
@@ -59,13 +65,18 @@
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button class="hero-button" type="button">Замовити послугу</button>
       </section>
-      
+
       <!-- List of Features -->
       <section class="features section">
         <div class="container">
           <h2 class="visually-hidden">Перелік особливостей</h2>
           <ul class="features-list list">
-            <li class="features-item icon-attention">
+            <li class="features-item">
+              <div class="feature-box">
+                <svg width="65.32" height="70">
+                  <use href="./images/icons.svg#features_icon_antenna"></use>
+                </svg>
+              </div>
               <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="features-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
@@ -73,7 +84,12 @@
               </p>
             </li>
 
-            <li class="features-item icon-accuracy">
+            <li class="features-item">
+              <div class="feature-box">
+                <svg width="66.96" height="70">
+                  <use href="./images/icons.svg#features_icon_clock"></use>
+                </svg>
+              </div>
               <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="features-text">
                 Завдання організації, особливо рамки і місце навчання кадрів
@@ -81,14 +97,24 @@
               </p>
             </li>
 
-            <li class="features-item icon-plan">
+            <li class="features-item">
+              <div class="feature-box">
+                <svg width="70" height="53.69">
+                  <use href="./images/icons.svg#features_icon_diagram"></use>
+                </svg>
+              </div>
               <h3 class="features-title">ПЛАНУВАННЯ</h3>
               <p class="features-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
 
-            <li class="features-item icon-technology">
+            <li class="features-item">
+              <div class="feature-box">
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#features_icon_astronaut"></use>
+                </svg>
+              </div>
               <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="features-text">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -150,10 +176,34 @@
                 <h3 class="team-member">Ігор Дем'яненко</h3>
                 <p class="team-member-role" lang="en">Product Designer</p>
                 <ul class="team-soc-list list">
-                  <li class="team-soc-link link"></li>
-                  <li class="team-soc-link link"></li>
-                  <li class="team-soc-link link"></li>
-                  <li class="team-soc-link link"></li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon_instagram"></useclass=>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon_twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon_facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon_linkedin"></use>
+                      </svg>
+                    </a>
+                  </liwidth=>
                 </ul>
               </div>
             </li>
@@ -197,7 +247,6 @@
               </div>
             </li>
           </ul>
-              
         </div>
       </section>
 
@@ -219,7 +268,6 @@
 
     <footer class="footer">
       <div class="footer-container container">
-        
         <div class="logo-address">
           <a class="logo link" href="./index.html"
             >Web<span class="main-white">Studio</span></a
@@ -260,7 +308,6 @@
             <li class="soc-link link"></li>
           </ul>
         </div>
-
       </div>
     </footer>
   </body>
