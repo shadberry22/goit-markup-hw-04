@@ -144,13 +144,13 @@ img {
   color: var(--accent-color);
 }
 
-.contacts-link.email::before {
+/* .contacts-link.email::before {
   content: "";
   width: 16px;
   height: 12px;
   display: inline-flex;
   margin-right: 10px;
-  background-image: url("../images/header_envelope.svg");
+  background-image: url("../images/icon_envelope.svg");
 }
 
 .contacts-link.tel::before {
@@ -159,8 +159,8 @@ img {
   height: 16px;
   display: inline-flex;
   margin-right: 10px;
-  background-image: url("../images/header_smartphone.svg");
-}
+  background-image: url("../images/icon_smartphone.svg");
+} */
 
 /* -----Hero Section----- */
 .hero {
@@ -223,18 +223,18 @@ img {
   background-color: var(--background-blue-color);
 }
 
-/* -----List of Merits----- */
-.merits-list {
+/* -----List of Features----- */
+.features-list {
   display: flex;
   flex-wrap: wrap;
   gap: var(--main-gap);
 }
 
-.merits-item {
+.features-item {
   width: calc((100% - 3 * var(--main-gap)) / 4);
 }
 
-.merits-item::before {
+.features-item::before {
   display: block;
   height: 120px;
   margin-bottom: 30px;
@@ -245,23 +245,23 @@ img {
   background-position: center;
 }
 
-.merits-item.icon-attention::before {
-  background-image: url("../images/merit_group_1.svg");
+.features-item.icon-attention::before {
+  background-image: url("../images/feature_group_1.svg");
 }
 
-.merits-item.icon-accuracy::before {
-  background-image: url("../images/merit_group_2.svg");
+.features-item.icon-accuracy::before {
+  background-image: url("../images/feature_group_2.svg");
 }
 
-.merits-item.icon-plan::before {
-  background-image: url("../images/merit_group_3.svg");
+.features-item.icon-plan::before {
+  background-image: url("../images/feature_group_3.svg");
 }
 
-.merits-item.icon-technology::before {
-  background-image: url("../images/merit_group_4.svg");
+.features-item.icon-technology::before {
+  background-image: url("../images/feature_group_4.svg");
 }
 
-.merits-title {
+.features-title {
   margin-bottom: 10px;
 
   font-size: 14px;
@@ -271,7 +271,7 @@ img {
   color: var(--main-color);
 }
 
-.merits-text {
+.features-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
